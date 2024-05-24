@@ -1,0 +1,28 @@
+.details-container {
+    background-image: url(https://images.pexels.com/photos/616484/pexels-photo-616484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .details-container img {
+    max-width: 100%;
+  }
+
+  h2{
+    color: crimson;
+  }
+  
+  .ingredient{
+    color: maroon;
+  }
+
+  .steps{
+    color: maroon;
+    
+  }

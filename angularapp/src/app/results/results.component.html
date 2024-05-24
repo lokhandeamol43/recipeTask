@@ -1,0 +1,7 @@
+<div class="results-container">
+    <div *ngFor="let recipe of recipes | filter: searchText" (click)="goToDetails(recipe.id)">
+      <img [src]="recipe.image" alt="{{ recipe.title }}">
+      <p class="label">{{ recipe.title }}</p>
+    </div>
+  </div>
+  
